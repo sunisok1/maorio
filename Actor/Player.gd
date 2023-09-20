@@ -29,7 +29,7 @@ func _physics_process(delta):
 	velocity = move_and_slide(velocity, Vector2(0, -1))
 
 
-func _on_Area2D_area_entered(area):
+func _on_HurtArea_area_entered(area):
 	PlayerDie()
 
 func PlayerDie():

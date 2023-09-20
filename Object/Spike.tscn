@@ -6,6 +6,8 @@
 extents = Vector2( 35, 17.5 )
 
 [node name="Spike" type="Area2D"]
+collision_layer = 2
+collision_mask = 0
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
